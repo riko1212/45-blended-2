@@ -52,10 +52,24 @@ body {
   line-height: 1.25;
   color: var(--second-text-color);
 }
+
+ /*  !------HERO---------- */
+
 .hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
   background: gray;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-text {
+  margin-bottom: 20px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -63,6 +77,11 @@ body {
   color: var(--second-text-color);
 }
 .hero-title {
+  width: 829px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
   font-weight: 800;
   font-size: 48px;
   line-height: 1.33;
@@ -70,6 +89,16 @@ body {
   color: var(--second-title-color);
 }
 .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 45px;
+  background-color: #4985FF;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
