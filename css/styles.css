@@ -64,7 +64,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 1920px;
+  max-width: 1920px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -186,17 +186,33 @@ body {
 .service-item-title {
   margin-bottom: 17px;
 }
-
+.standart {
+  background-color: #f6f6f8;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.standart-content {
+  width: 489px;
+}
 .standart-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.48;
   color: var(--main-title-color);
+  margin-bottom: 40px;
+}
+.standart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 90px;
 }
 .standart-text {
   font-size: 16px;
   line-height: 1.57;
   color: var(--main--text-color);
+  margin-bottom: 30px;
 }
 .standart-link {
   font-weight: 500;
@@ -213,4 +229,23 @@ body {
   font-size: 16px;
   line-height: 1.56;
   color: var(--main--text-color);
+}
+
+.standart-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.standart-item + .standart-item {
+  margin-left: 100px;
+}
+.standart-icon {
+  height: 30px;
+  width: 30px;
+  fill: var(--accent-color);
+}
+.standart-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
