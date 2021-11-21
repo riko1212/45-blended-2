@@ -5,6 +5,23 @@
   --second-text-color: #ffffff;
   --accent-color: #4985ff;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -19,6 +36,14 @@ body {
 
 .header {
   background-color: gray;
+  padding: 40px 0;
+}
+.header-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-item + .header-item {
+  margin-left: 40px;
 }
 
 .header-link {
