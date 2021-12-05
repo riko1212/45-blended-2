@@ -17,11 +17,11 @@ ul {
     margin: 0;
     padding: 0;
 }
-.container {
+/* .container {
     width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
-}
+} */
 body {
     font-family: "Montserrat", sans-serif;
 }
@@ -202,10 +202,10 @@ body {
     margin-bottom: 40px;
 }
 .standart-top {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #e0e0e0;
+    align-items: center; */
+    /* border-bottom: 1px solid #e0e0e0; */
     padding-bottom: 90px;
 }
 .standart-text {
@@ -311,4 +311,23 @@ body {
     font-size: 16px;
     line-height: 1.25;
     color: #4985ff;
+}
+
+.slick-next,
+.slick-prev {
+    top: 20%;
+}
+
+.slick-next:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url(../images/works-img.png);
+    background-size: cover;
+}
+
+.slick-dots li button:before {
+    content: "😜";
+    font-size: 20px;
 }
